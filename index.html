@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Project</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/utils.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="cont-flex-spbe">
         <a
           href="index.html"
           target="_blank"
           rel="noreferrer"
-          id="header-logo"
-          class="nav-link"
+          class="nav-link bold"
           >Header Logo</a
         >
-        <ul>
-          <li class="no-bullet">
+        <ul class="cont-flex-spbe">
+          <li>
             <a
               href="index.html"
               target="_blank"
@@ -27,7 +27,7 @@
               >header link one</a
             >
           </li>
-          <li class="no-bullet">
+          <li>
             <a
               href="index.html"
               target="_blank"
@@ -36,7 +36,7 @@
               >header link two</a
             >
           </li>
-          <li class="no-bullet">
+          <li>
             <a
               href="index.html"
               target="_blank"
@@ -47,14 +47,14 @@
           </li>
         </ul>
       </nav>
-      <div class="hero">
-        <div id="hero-description-container">
-          <h1 id="hero-title">This website is awesome</h1>
+      <div class="hero cont-flex-spar">
+        <div class="cont-flex-spce" id="hero-description-container">
+          <h1 class="extra-bold" id="hero-title">This website is awesome</h1>
           <p id="hero-description">
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast.
           </p>
-          <button type="button" id="hero-call-to-action">Sign up</button>
+          <button type="button bold" id="hero-call-to-action">Sign up</button>
         </div>
         <img
           src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -65,23 +65,23 @@
     </header>
     <main>
       <section id="cards">
-        <h2 id="cards-header">Some random information.</h2>
-        <div id="cards-container">
+        <h2 class="extra-bold txt-center" id="cards-header">Some random information.</h2>
+        <div class="cont-flex-spce" id="cards-container">
           <div class="card">
             <div class="card-placeholder"></div>
-            <p class="card-text">
+            <p class="text-center">
               This is some subtext under an illustration or image
             </p>
           </div>
           <div class="card">
             <div class="card-placeholder"></div>
-            <p class="card-text">
+            <p class="text-center">
               This is some subtext under an illustration or image
             </p>
           </div>
           <div class="card">
             <div class="card-placeholder"></div>
-            <p class="card-text">
+            <p class="text-center">
               This is some subtext under an illustration or image
             </p>
           </div>
@@ -100,22 +100,22 @@
             it's just filling up space, or maybe people will actually read it.
             Who knows? All I know is that it looks nice.
           </q>
-          <p id="quotation-author">- Thor, God of Thunder</p>
+          <p class="extra-bold" id="quotation-author">- Thor, God of Thunder</p>
         </div>
       </section>
       <section id="call-to-action">
-        <div id="call-to-action-container">
+        <div class="cont-flex-spar" id="call-to-action-container">
           <div id="call-to-action-description">
-            <p>Call to action! It's time!</p>
+            <p class="bold">Call to action! It's time!</p>
             <p>
               Sign up for our product by clicking that button right over there!
             </p>
           </div>
-          <button type="button">Sign up</button>
+          <button type="button" class="bold">Sign up</button>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="txt-center">
       <p>Copyright &#169; The Odin Project 2024</p>
     </footer>
   </body>

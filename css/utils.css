@@ -1,0 +1,26 @@
+.bold {
+  font-weight: 700;
+}
+
+.cont-flex-spar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont-flex-spbe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont-flex-spce {
+  display: flex;
+  justify-content: center;
+}
+
+.extra-bold {
+    font-weight: 900;
+}
+
+.txt-center {
+    text-align: center;
+}

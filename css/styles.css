@@ -34,48 +34,35 @@ header {
   padding: 2vh 15vw;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 .nav-link {
   color: var(--color-light, white);
   text-decoration: none;
 }
 
-.no-bullet {
+li {
   list-style: none;
 }
 
 #header-logo {
   font-size: var(--size-header-logo-text);
-  font-weight: bold;
 }
 
 nav > ul {
-  display: flex;
-  justify-content: space-between;
   gap: 1vw;
 }
 
 .hero {
-  display: flex;
-  justify-content: space-around;
   gap: 10vw;
   padding: 10vh 0;
 }
 
 #hero-description-container {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 #hero-title {
   color: var(--hero-title-color, white);
   font-size: var(--size-hero-main-text);
-  font-weight: 900;
 }
 
 #hero-description {
@@ -89,7 +76,6 @@ nav > ul {
   border: none;
   color: var(--color-light, white);
   font-size: var(--size-hero-secondary-text);
-  font-weight: 600;
   margin-top: 2vh;
   padding: 1vh 1vw;
   width: 20%;
@@ -106,14 +92,10 @@ nav > ul {
 #cards-header {
   color: var(--color-dark, darkslategray);
   font-size: var(--size-header-information-text);
-  font-weight: 900;
   margin-bottom: 7vh;
-  text-align: center;
 }
 
 #cards-container {
-  display: flex;
-  justify-content: center;
   margin: 5vh auto 0 auto;
   width: 60%;
 }
@@ -130,10 +112,6 @@ nav > ul {
   border: 5px solid var(--color-background-call-to-action, royalblue);
   height: 150px;
   width: 150px;
-}
-
-.card-text {
-  text-align: center;
 }
 
 #quotation {
@@ -156,7 +134,6 @@ q {
 
 #quotation-author {
   font-size: 22px;
-  font-weight: 900;
   margin: 2vh 0;
   text-align: right;
 }
@@ -168,8 +145,6 @@ q {
 #call-to-action-container {
   background-color: var(--color-background-call-to-action, royalblue);
   border-radius: 1vw;
-  display: flex;
-  justify-content: space-around;
   margin: 0 auto;
   padding: 5vh 0;
   width: 80%;
@@ -187,7 +162,6 @@ q {
 
 #call-to-action-description > p:first-child {
   font-size: 22px;
-  font-weight: 700;
 }
 
 #call-to-action-container > button {
@@ -196,7 +170,6 @@ q {
   border: 3px solid var(--color-light, white);
   color: var(--color-light, white);
   font-size: 20px;
-  font-weight: 700;
   padding: 0 4vw;
 }
 
@@ -204,5 +177,4 @@ footer {
   background-color: var(--color-dark, darkslategray);
   color: var(--color-light, white);
   padding: 4vh 0;
-  text-align: center;
 }
