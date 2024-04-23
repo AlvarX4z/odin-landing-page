@@ -199,3 +199,10 @@ q {
   font-weight: 700;
   padding: 0 4vw;
 }
+
+footer {
+  background-color: var(--color-dark, darkslategray);
+  color: var(--color-light, white);
+  padding: 4vh 0;
+  text-align: center;
+}
