@@ -160,3 +160,42 @@ q {
   margin: 2vh 0;
   text-align: right;
 }
+
+#call-to-action {
+  padding: 10vh 0;
+}
+
+#call-to-action-container {
+  background-color: var(--color-background-call-to-action, royalblue);
+  border-radius: 1vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 5vh 0;
+  width: 80%;
+}
+
+#call-to-action-description {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+#call-to-action-description > p {
+  color: var(--color-light, white);
+}
+
+#call-to-action-description > p:first-child {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#call-to-action-container > button {
+  background-color: var(--color-background-call-to-action, royalblue);
+  border-radius: 0.5vw;
+  border: 3px solid var(--color-light, white);
+  color: var(--color-light, white);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 4vw;
+}
